@@ -1,0 +1,47 @@
+nav {
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/* left-Div */
+.left-div{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.left-div ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.left-div ul li{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 3em;
+}
+
+/* Right-Div */
+.right-div{
+    display: flex;
+    margin-left: auto;
+}
+
+.right-div ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.right-div ul li{
+    margin-right: 3em;  
+}
