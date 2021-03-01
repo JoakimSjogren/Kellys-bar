@@ -34,7 +34,7 @@ nav {
 /* Right-Div */
 .right-div{
     display: flex;
-    margin-left: auto;
+    margin-left: auto;  
 }
 
 .right-div ul{
