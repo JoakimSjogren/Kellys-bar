@@ -4,6 +4,7 @@ nav {
     height: 10vh;
     display: flex;
     align-items: center;
+    position: absolute;
 }
 
 .logo {
@@ -13,7 +14,6 @@ nav {
     margin-top: 150px;
 }
 
-/* left-Div */
 .left-div{
     display: flex;
     justify-content: center;
@@ -31,7 +31,6 @@ nav {
     margin-left: 3em;
 }
 
-/* Right-Div */
 .right-div{
     display: flex;
     margin-left: auto;  
@@ -43,5 +42,5 @@ nav {
 }
 
 .right-div ul li{
-    margin-right: 3em;  
+    margin-right: 2em;  
 }

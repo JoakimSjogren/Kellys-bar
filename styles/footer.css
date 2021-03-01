@@ -1,0 +1,27 @@
+footer {
+    background-color: #1c1c1c;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer div span {
+    font-size: 2em;
+}
+
+footer div {
+   align-self: center;
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer div ul li {
+    list-style-type: none;
+    font-size: 1.1em;
+}
