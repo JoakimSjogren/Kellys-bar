@@ -4,19 +4,20 @@ nav {
     height: 10vh;
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
+    justify-content: center;
 }
 
 .logo {
-    justify-self: center;
     display: flex;
     justify-content: center;
     margin-top: 150px;
 }
 
 .left-div{
+    width: 25vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-right: auto;
 }
 
@@ -32,7 +33,9 @@ nav {
 }
 
 .right-div{
+    width: 25vw;
     display: flex;
+    justify-content: center;
     margin-left: auto;  
 }
 

@@ -4,11 +4,12 @@ footer {
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    
+    border-top: 1px solid white;
 }
 
 footer div span {
     font-size: 2em;
+    color: #fff;
 }
 
 footer div {
@@ -24,4 +25,5 @@ footer div ul {
 footer div ul li {
     list-style-type: none;
     font-size: 1.1em;
+    color: #fff;
 }

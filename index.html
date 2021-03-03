@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/nav.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/form.css">
 </head>
 <body>
     <nav>
@@ -18,11 +19,7 @@
                 <li>Hitta Hit</li>
             </ul>
         </div>
-        
-        
-            <img class = "logo" src="/images/logga_vit.png" alt="">
-       
-        
+        <img class = "logo" src="/images/logga_vit.png" alt="">
         <div class = "right-div">
             <ul>
                 <li><img src="/images/facebook.png" alt=""></li>
@@ -34,12 +31,40 @@
 
    
     <div class = "landing-page-container">
-        <h1>Onsdagsquiz</h1>
+        <h2>Onsdagsquiz</h2>
         <p>- Om allt eller inget</p>
         <img class = "arrow" src="/images/arrow.png" alt="">
     </div>
 
     <main>
+        <p class="welcome-text">Välkommen till onsdagquiz 24/3!</p>
+
+        <div class = "form-container">
+            <form class = "sign-up-form" action="">
+
+                <h2>Anmäl dig här</h2>
+                <div class ="name-div">
+                    <label for="firstname">Förnamn</label>
+                    <label for="lastname">Efternamn</label>
+
+                    <input type="text" id = "firstname">
+                    <input type="text" id = "lastname">
+                </div>
+                
+                <label for="number">Telefonnummer:</label>
+                <input type="number" id = "number">
+
+                <label for="teamname">Lagnamn:</label>
+                <input type="text" id = "teamname">
+
+                <label for="totalmembers">Antal medlemmar:</label>
+                <input type="number" id = "totalmembers">
+        
+
+                <button type = "submit">Skicka in!</button>
+            </form>
+
+        </div>
 
     </main>
 

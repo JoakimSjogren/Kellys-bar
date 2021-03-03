@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: #ffffff;
 }
 
 .landing-page-container {
@@ -12,12 +11,29 @@
     justify-content: center;
     flex-direction: column;
 }
-.landing-page-container p, .landing-page-container h1{
+.landing-page-container p, .landing-page-container h2{
     text-align: center;
     font-size: 4em;
+    color: #fff;
+}
+
+.landing-page-container h2 {
+    font-size: 7em;
 }
 
 .arrow {
     width: 10em;
     align-self: center;
+}
+
+main {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text {
+    font-size: 5em;
+    margin: auto;
+    color: #fff;
 }
