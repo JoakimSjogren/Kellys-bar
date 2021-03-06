@@ -27,7 +27,9 @@
 .sign-up-form h2 {
     align-self: center;
     text-align: center;
-    margin-bottom: 10%;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .sign-up-form button {
@@ -42,7 +44,7 @@
 .name-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
 }
 
 .name-div input, .name-div label{

@@ -6,6 +6,7 @@ nav {
     align-items: center;
     position: fixed;
     justify-content: center;
+    z-index: 5;
 }
 
 .logo {
@@ -26,10 +27,16 @@ nav {
     list-style-type: none;
 }
 
-.left-div ul li{
+.left-div ul li a{
+    text-decoration: none;
     color: #ffffff;
     font-size: 1.5em;
     margin-left: 3em;
+}
+
+.left-div ul li a:hover { 
+    color: rgb(163, 163, 163);
+    cursor: pointer;
 }
 
 .right-div{

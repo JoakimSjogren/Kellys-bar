@@ -5,6 +5,7 @@ footer {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid white;
+    overflow-x: hidden;
 }
 
 footer div span {
