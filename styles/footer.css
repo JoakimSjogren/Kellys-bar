@@ -1,6 +1,6 @@
 footer {
     background-color: #1c1c1c;
-    height: 20vh;
+    height: 25vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@ footer {
 }
 
 footer div span {
-    font-size: 2em;
+    font-size: 1.2em;
     color: #fff;
 }
 
@@ -27,6 +27,6 @@ footer div ul {
 
 footer div ul li {
     list-style-type: none;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #fff;
 }

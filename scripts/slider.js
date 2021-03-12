@@ -26,7 +26,6 @@ prevBtn.addEventListener('click', () => {
         return;
     counter--;
     slide();
-    
 });
 
 function slide() {
@@ -46,3 +45,11 @@ slider.addEventListener('transitionend', () => {
         slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
 });
+
+//Slide every 5 seconds
+const SlideInterval = setInterval(function(){ 
+    if (counter >= sliderImages.length -1)
+        return;
+    counter++;
+    slide();
+}, 5000);

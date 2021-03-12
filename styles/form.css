@@ -29,17 +29,20 @@
     align-self: center;
     text-align: center;
     font-size: 2em;
+    padding: 0.5em;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .sign-up-form button {
-    width: 30%;
+    width: 35%;
     justify-self: flex-end;
     margin: auto 60%;
     background-color: #fff;
     border-radius: 15px;
     font-size: 1.5em;
+    padding: 0.5em;
+    cursor: pointer;
 }
 
 .name-div {

@@ -7,13 +7,53 @@ nav {
     position: fixed;
     justify-content: center;
     z-index: 10;
-    overflow: hidden;
+    overflow: visible;
+}
+
+.mobile-nav-btn {
+    display: none;
+    color: #fff;
+    background-color:#1c1c1c;
+    z-index: 5;
+    width: 100vw;
+    height: 10vh;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 200%;
+    justify-content: center;
+    transition: top .5s ease-in-out;
+    top: -100%;
+}
+
+.mobile-menu ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: .8em;
+}
+
+.mobile-menu ul li img {
+    width: 5vw;
+}
+
+.menu-open {
+    top: 100%;
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
 }
 
 .left-div{
@@ -30,7 +70,7 @@ nav {
 .left-div ul li a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 3em;
 }
 

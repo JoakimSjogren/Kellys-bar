@@ -1,0 +1,85 @@
+@media screen and (max-width: 1890px) {
+    
+    /* nav */
+    .left-div ul li a {
+        font-size: .8em;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+    nav .right-div, nav .left-div, .logo{
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: flex;
+        justify-content: center;
+        align-items : center;
+        cursor: pointer;
+    }
+
+    .mobile-menu { 
+        display: flex;
+    }
+
+    .next-btn, .prev-btn {
+        height: 10vh;
+        width: 10vw;
+    }
+
+    .next-btn {
+        left: 90%;
+    }
+
+    .landing-page-text-container {
+        left: 10%;
+        font-size: 2em;
+        width: 80vw;
+    }
+
+    .arrow {
+        top: 90%;
+        width: 15vw;
+        height: 20vw;
+    }
+
+    .welcome-text {
+        /* margin: 0 auto; */
+        width: 90vw;
+        text-align: end;
+        font-size: 1.5em;
+    }
+
+    /* Form section */
+    .sign-up-form {
+        width: 80vw;
+        height: 100vw;
+    }
+
+    .sign-up-form h2 { 
+        font-size: 1.5em;
+        overflow: hidden;
+    }
+
+    .sign-up-form input, .sign-up-form label{
+        height: 10%;
+        width: 80%;
+    }
+
+    .name-div input, .name-div label{
+        width: 80%;
+        height: 150%;
+        font-size: 1.5em;
+        margin: 0 auto;
+    }
+
+    .sign-up-form button { 
+        width: 35%;
+        overflow: hidden;
+    }
+
+    .twirl {
+        display: none;
+    }
+}
