@@ -25,8 +25,7 @@
 
 .next-btn, .prev-btn {
     cursor: pointer;
-    width: 6vw;
-    height: 10vw;
+    width: 8vw;
     z-index: 5;
     top: 40%;
     opacity: 0.6;
@@ -36,7 +35,7 @@
 }
 
 .next-btn {
-    left: 94%;
+    left: 92%;
     transform: rotate(180deg);
 }
 
@@ -58,12 +57,12 @@
 .landing-page-text-container h2, .landing-page-text-container p {
     text-align: center;
     color: #fff;
-    text-shadow: 0px 0px 50px #000000;
+    text-shadow: 0px 0px 500px #000000;
     padding: .5em;
 }
 
 .landing-page-text-container h2 {
-    font-size: 1.1em;
+    font-size: 1.25em;
 }
 
 .landing-page-text-container p {
@@ -74,7 +73,6 @@
     animation: MoveUpDown 2s linear infinite;
     position: absolute;
     width: 10vw;
-    height: 15vw;
     z-index: 5;
     top: 75%;
     left: 45%;
@@ -98,11 +96,12 @@ main {
 }
 
 .welcome-text {
-    font-size: 6em;
+    font-size: 5em;
     margin: 0 auto;
     color: #fff;
     z-index: 4;
     padding: .5em 1em;
+    overflow: hidden;
 }
 
 .twirl {
@@ -111,16 +110,67 @@ main {
     left: 75%;
     transform: rotateY(180deg);
 }
-    
 
+.pop-up-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40vw;
+    height: 80vw;
+    margin-top: 150vh;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pop-up-box img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.pop-up-box p {
+    position: absolute;
+    font-size: 2.5em;
+    padding: 0.5em;
+    margin-bottom: 14%;
+    margin-left: 4%;
+    transform: rotate(-5deg);
+}
+
+.pop-up-text-2 {
+    margin-top: 12%;    
+}
+
+.pizza-container {
+    position: absolute;
+    margin-top: 80vh;
+    width: 15vw;
+    height: 15vw;
+}
+
+.pizza-container-2 {
+    position: absolute;
+    margin-top: 120vh;
+    width: 15vw;
+    height: 15vw;
+    margin-left: 50%;
+    transform: rotate(30deg);
+}
+
+.pizza {
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+}
 
 .menu {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
     width: 25vw;
-    height: 80vw;
-    margin-top: 40vh;
+    height: 100vw;
+    margin-top: -50vh;
     margin-left: 50%;
     border-radius: 50px;
     z-index: 4;

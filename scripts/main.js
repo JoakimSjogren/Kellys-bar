@@ -12,6 +12,5 @@ for (const [key, value] of urlParams) {
 
 //mobile nav
 mobileMenuBtn.addEventListener('click', () => {
-    console.log("aasd");
     mobileMenu.classList.toggle('menu-open');
 });
