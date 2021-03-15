@@ -67,9 +67,8 @@
         display: none;
     }
 
-    .mobile-nav-btn {
+    .mobile-nav-btn-container {
         display: flex;
-        justify-content: center;
         align-items : center;
         cursor: pointer;
     }
@@ -105,41 +104,6 @@
     }
 
     /* Form section */
-    .pop-up-box {
-        display: none;
-    }
-
-    .pop-up-box-mobile {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 100vw;
-        height: 100vw;
-        margin-top: 10vh;
-        margin-left: -10%;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-
-    .pop-up-box-mobile img {
-        object-fit: cover;
-        width: 100%;
-    }
-
-    .pop-up-box-mobile p {
-        position: absolute;
-        font-size: 1.2em;
-        padding: 0.5em;
-        margin-bottom: 14%;
-        margin-left: 4%;
-        transform: rotate(-5deg);
-    }
-
-    .pop-up-box-mobile .pop-up-text-1 {
-        font-size: 2em;
-        margin-bottom: 18%;   
-    }
 
     .sign-up-form {
         margin-top: 50vh;
@@ -169,53 +133,11 @@
         overflow: hidden;
     }
 
-    .twirl {
-        display: none;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .pizza-container-mobile {
-        left: 40%;
-        position: absolute;
-        margin-top: 120vh;
-        width: 30vw;
-        height: 30vw;
-    }
-
-    .pizza-container-mobile-2 {
-        left: 70%;
-        top: 110%;
-        position: absolute;
-        margin-top: 120vh;
-        width: 30vw;
-        height: 30vw;
-        transform: rotate(30deg);
-    }
-    
-    .pizza {
-        width: 30vw;
-        height: 30vw;
-        position: absolute;
-    }
-
     /* Footer */
 
     footer {
         justify-content: space-between;
     }
 
-    footer div {
-        height: 100%;
-    }
-
-    footer div span {
-        font-size: .7em;
-    }
-
-    footer div ul li {
-        font-size: .4em;
-    }
+    
 }

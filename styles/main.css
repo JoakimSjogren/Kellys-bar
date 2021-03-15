@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font: normal normal bold 20px/24px Barlow;
+    font-family: 'Barlow', sans-serif;
 }
 
 .image-container {
@@ -25,7 +25,7 @@
 
 .next-btn, .prev-btn {
     cursor: pointer;
-    width: 8vw;
+    width: 5vw;
     z-index: 5;
     top: 40%;
     opacity: 0.6;
@@ -35,7 +35,7 @@
 }
 
 .next-btn {
-    left: 92%;
+    left: 95%;
     transform: rotate(180deg);
 }
 
@@ -50,15 +50,16 @@
     z-index: 5;
     top: 45%;
     left: 30%;
-    font-size: 5em;
+    font-size: 6em;
     overflow: hidden;
 }
 
 .landing-page-text-container h2, .landing-page-text-container p {
     text-align: center;
     color: #fff;
-    text-shadow: 0px 0px 500px #000000;
-    padding: .5em;
+    text-shadow: 0px 0px 50px #000000;
+    font-weight: bolder;
+    /* padding: .5em; */
 }
 
 .landing-page-text-container h2 {
@@ -95,92 +96,18 @@ main {
     object-fit: cover;
 }
 
-.welcome-text {
-    font-size: 5em;
+.welcome-text-container  {
     margin: 0 auto;
+    margin-top: 10vh;
+    z-index: 5;
+}
+
+.welcome-text {
+    font-size: 7em;
     color: #fff;
-    z-index: 4;
-    padding: .5em 1em;
-    overflow: hidden;
 }
 
-.twirl {
-    position: absolute;
-    top: 200%;
-    left: 75%;
-    transform: rotateY(180deg);
-}
-
-.pop-up-box {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 40vw;
-    height: 80vw;
-    margin-top: 150vh;
-    margin-left: 10%;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.pop-up-box img {
-    object-fit: cover;
-    width: 100%;
-}
-
-.pop-up-box p {
-    position: absolute;
-    font-size: 2.5em;
-    padding: 0.5em;
-    margin-bottom: 14%;
-    margin-left: 4%;
-    transform: rotate(-5deg);
-}
-
-.pop-up-text-2 {
-    margin-top: 12%;    
-}
-
-.pizza-container {
-    position: absolute;
-    margin-top: 80vh;
-    width: 15vw;
-    height: 15vw;
-}
-
-.pizza-container-2 {
-    position: absolute;
-    margin-top: 120vh;
-    width: 15vw;
-    height: 15vw;
-    margin-left: 50%;
-    transform: rotate(30deg);
-}
-
-.pizza {
-    width: 15vw;
-    height: 15vw;
-    position: absolute;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    width: 25vw;
-    height: 100vw;
-    margin-top: -50vh;
-    margin-left: 50%;
-    border-radius: 50px;
-    z-index: 4;
-}
-
-.menu h2 {
-    font-size: 2em;
-    padding: 0.5em;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.user-text {
 }
 
 @keyframes MoveUpDown {

@@ -1,6 +1,5 @@
 const userText = document.querySelector('.user-text');
-
-const mobileMenuBtn = document.querySelector('.mobile-nav-btn');
+const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 
 const urlParams = new URLSearchParams(location.search);
@@ -10,7 +9,7 @@ for (const [key, value] of urlParams) {
     userText.textContent += ` ${name}`;
 };
 
-//mobile nav
-mobileMenuBtn.addEventListener('click', () => {
+//open/close mobile navigation
+hamburger.addEventListener('click', () => {
     mobileMenu.classList.toggle('menu-open');
 });

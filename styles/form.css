@@ -23,6 +23,7 @@
     height: 6%;
     width: 80%;
     margin: 0 auto;
+    outline: none;
 }
 
 .sign-up-form h2 {

@@ -10,13 +10,35 @@ nav {
     overflow: visible;
 }
 
-.mobile-nav-btn {
+.mobile-nav-btn-container {
     display: none;
     color: #fff;
     background-color:#1c1c1c;
     z-index: 5;
     width: 100vw;
     height: 10vh;
+}
+
+.mobile-nav-btn-container h2{ 
+    margin-left: 2vw;
+    font-size: 2em;
+} 
+
+.mobile-nav-btn-container img{ 
+    height: 50%;
+    margin: auto;
+}
+
+.hamburger {
+    position: absolute;
+    left: 83vw;
+}
+
+.hamburger div{
+    background-color: lightgray;
+    margin-bottom: 6px;
+    height: 3px;
+    width: 35px;
 }
 
 .mobile-menu {
@@ -26,7 +48,7 @@ nav {
     width: 100vw;
     height: 200%;
     justify-content: center;
-    transition: top .5s ease-in-out;
+    transition: top .4s ease-in-out;
     top: -100%;
 }
 
@@ -92,4 +114,9 @@ nav {
 
 .right-div ul li{
     margin-right: 2em;  
+}
+
+.right-div ul li img{ 
+    width: 1.8vw;
+    border-radius: 50%; 
 }
