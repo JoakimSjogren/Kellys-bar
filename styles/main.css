@@ -90,15 +90,13 @@ main {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 400vh;
+    height: 250vh;
 }
 
-.background-image {
-    margin-top: 20vh;
+.yellow2 {
     position: absolute;
-    height: 400vh;
-    width: 100vw;
-    object-fit: cover;
+    width: 105vw;
+    /* margin-top: 130vh; */
 }
 
 .welcome-text-container  {
