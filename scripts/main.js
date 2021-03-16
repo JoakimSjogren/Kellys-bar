@@ -4,9 +4,14 @@ const mobileMenu = document.querySelector('.mobile-menu');
 
 const urlParams = new URLSearchParams(location.search);
 for (const [key, value] of urlParams) {
-    let name = value;
-    name = name.charAt(0).toUpperCase() + name.slice(1);
-    userText.textContent += ` ${name}`;
+    let id = value;
+
+    //check if user exists
+    let user = users[Object.keys(users)[id -1]];
+    if (user !== undefined) {
+        let firstName = user.firstName;
+        userText.textContent += " " + firstName;
+    }
 };
 
 //open/close mobile navigation
