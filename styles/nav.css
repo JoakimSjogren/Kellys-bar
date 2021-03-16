@@ -62,7 +62,7 @@ nav {
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-    font-size: .8em;
+    font-size: 1.2em;
 }
 
 .mobile-menu ul li img {
@@ -76,47 +76,39 @@ nav {
 .logo {
     display: flex;
     justify-content: center;
+    position: absolute;
+    height: 80%;
 }
 
-.left-div{
-    width: 25vw;
+.left-div, .right-div{
     display: flex;
-    justify-content: flex-start;
-    margin-right: auto;
+    justify-content: space-around;
+    width: 30vw;
 }
 
-.left-div ul{
-    display: flex;
+.left-div li, .right-div li{ 
+    list-style: none;
 }
 
-.left-div ul li a{
+.left-div li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2em;
     margin-left: 3em;
+    list-style: none;
 }
 
-.left-div ul li a:hover { 
+.left-div li a:hover { 
     color: rgb(163, 163, 163);
     cursor: pointer;
 }
 
 .right-div{
-    width: 25vw;
-    display: flex;
-    justify-content: center;
     margin-left: auto;  
 }
 
-.right-div ul{
-    display: flex;
-}
-
-.right-div ul li{
-    margin-right: 2em;  
-}
-
-.right-div ul li img{ 
-    width: 1.8vw;
+.right-div li img{ 
+    width: 2vw;
     border-radius: 50%; 
+    cursor: pointer;
 }

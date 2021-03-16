@@ -1,49 +1,66 @@
 @media screen and (max-width: 1890px) {
     
     /* nav */
-    .left-div ul li a {
+    .left-div li a {
+        font-size: 1em;
+    }
+
+    .landing-page-text-container {
+        font-size: 4.6em;
+    }
+
+    footer div ul li { 
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1400px) { 
+    .landing-page-text-container {
+        font-size: 3.6em;
+    }
+
+    .left-div li a {
         font-size: .8em;
     }
 
-    .landing-page-text-container {
-        font-size: 3.5em;
+    .logo {
+        height: 60%;
+    }
+
+    footer div span {
+        font-size: 1.3em; 
+    }
+
+    footer div ul li { 
+        font-size: 1em;
     }
 }
 
-@media screen and (max-width: 1320px) { 
+@media screen and (max-width: 1220px) {
+    
     .landing-page-text-container {
-        font-size: 2.2em;
-    }
-
-    .left-div ul li a {
-        font-size: .6em;
+        font-size: 3em;
     }
 
     .logo {
-        width: 25vw;
+        height: 40%;
     }
 
-}
-
-@media screen and (max-width: 1020px) {
-    
-    .landing-page-text-container {
-        font-size: 2em;
-    }
-
-    .logo {
-        width: 20vw;
-        position: absolute;
-    }
-
-    .right-div ul li {
-        margin-right: 1em;
-    }
-
-    .right-div ul li img{ 
-        width: 60%; 
+    .right-div li img{ 
+        width: 30%; 
     }
     
+    .left-div li a {
+        font-size: .65em;
+    }
+
+    footer div span {
+        font-size: 1.2em; 
+    }
+
+    footer div ul li { 
+        font-size: .8em;
+    }
 }
 
 @media screen and (max-width: 950px) { 
@@ -78,8 +95,17 @@
     }
 
     .next-btn, .prev-btn {
-        height: 10vh;
         width: 10vw;
+    }
+
+    @keyframes next-btn-slide {
+        from { left: 100%; }
+        to { left: 90%; }
+    }
+
+    @keyframes prev-btn-slide {
+        from { left: -10%; }
+        to { left: 0%; }
     }
 
     .next-btn {
@@ -136,8 +162,14 @@
     /* Footer */
 
     footer {
-        justify-content: space-between;
+        height: 15vh;
     }
 
-    
+    footer div span {
+        font-size: .8em; 
+    }
+
+    footer div ul li { 
+        font-size: .5em;
+    }
 }
