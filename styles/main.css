@@ -93,10 +93,9 @@ main {
     height: 250vh;
 }
 
-.yellow2 {
+.background-image {
     position: absolute;
     width: 105vw;
-    /* margin-top: 130vh; */
 }
 
 .welcome-text-container  {
@@ -108,9 +107,6 @@ main {
 .welcome-text {
     font-size: 7em;
     color: #fff;
-}
-
-.user-text {
 }
 
 @keyframes move-up-down {

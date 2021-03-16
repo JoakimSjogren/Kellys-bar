@@ -14,61 +14,63 @@
     height: 40vw;
     border-radius: 12%;
     display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
     flex-direction: column;
     margin: auto;
     margin-top: 40vh;
 }
 
-.sign-up-form input, .sign-up-form label{
-    height: 6%;
-    width: 80%;
-    margin: 0 auto;
-    outline: none;
+input {
+    border-radius: 50px;
 }
 
-.sign-up-form h2 {
-    align-self: center;
-    text-align: center;
-    font-size: 2em;
-    padding: 0.5em;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.sign-up-form button {
-    width: 35%;
-    justify-self: flex-end;
-    margin: auto 60%;
-    background-color: #fff;
-    border-radius: 15px;
-    font-size: 1.5em;
-    cursor: pointer;
+.form-container h2 {
+    font-size: 2.7em;
+    margin-bottom: 1em;
 }
 
 .name-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.name-div input, .name-div label{
-    width: 80%;
-    height: 150%;
-    margin: 0 auto;
+.name-div label{
+    width: 40%;
 }
 
-
-.sign-up-form input, .sign-up-form label{
-    color: black;
-    font-weight: bold;
+.name-div-input {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.sign-up-form label {
-    font-size: 1.5em;
+.name-div-input input {
+    width: 40%;
 }
 
 .sign-up-form input {
-    border-color: #707070;
-    border-radius: 15px;
+    margin-bottom: 1.9em;
 }
 
+.sign-up-form div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-form input, .sign-up-form label{ 
+    font-size: 1.6em;
+    outline: none;
+}
+
+.sign-up-form button {
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+}
+
+input {
+    text-align: center;
+}

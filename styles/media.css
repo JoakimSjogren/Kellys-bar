@@ -20,6 +20,19 @@
         font-size: 4.6em;
     }
 
+    .sign-up-form input, .sign-up-form label{ 
+        font-size: 1.5em;
+    }
+
+    .form-container h2 {
+        font-size: 2em;
+        margin-bottom: .5em;
+    }
+
+    .sign-up-form input {
+        margin-bottom: 1.5em;
+        }
+
     footer div ul li { 
         font-size: 1.2em;
     }
@@ -36,6 +49,24 @@
 
     .logo {
         height: 60%;
+    }
+
+    .sign-up-form input, .sign-up-form label{ 
+        font-size: 1.5em;
+    }
+
+    .sign-up-form input {
+    margin-bottom: 1em;
+    }
+
+    .sign-up-form {
+        height: 60vh;
+        width: 40vw;
+    }
+
+    .form-container h2 {
+        font-size: 1.7em;
+        margin-bottom: .3em;
     }
 
     footer div span {
@@ -84,11 +115,11 @@
 @media screen and (max-width: 750px) {
 
     main {
-        height: 165vh;
+        height: 130vh;
     }
 
     .background-image {
-        display: none;
+        margin-top: 95vh;
     }
 
     nav .right-div, nav .left-div, .logo{
@@ -134,40 +165,35 @@
         width: 15vw;
     }
 
+    .welcome-text-container  {
+        margin-top: 8vh;
+        overflow: hidden;
+    }
     .welcome-text {
         width: 90vw;
+        margin: 0;
         text-align: end;
-        font-size: 1.5em;
+        font-size: 1.4em;
+        padding: 0.5em;
     }
 
     /* Form section */
 
     .sign-up-form {
-        margin-top: 50vh;
-        width: 80vw;
-        height: 100vw;
+        margin-top: 10vh;
     }
 
-    .sign-up-form h2 { 
-        font-size: 1.5em;
-        overflow: hidden;
+    .sign-up-form input, .sign-up-form label{ 
+        font-size: 1.3em;
     }
 
-    .sign-up-form input, .sign-up-form label{
-        height: 10%;
-        width: 80%;
+    .sign-up-form input {
+    margin-bottom: 1.5em;
     }
 
-    .name-div input, .name-div label{
-        width: 80%;
-        height: 150%;
-        font-size: 1.5em;
-        margin: 0 auto;
-    }
-
-    .sign-up-form button { 
-        width: 35%;
-        overflow: hidden;
+    .sign-up-form {
+        height: 150vw;
+        width: 90vw;
     }
 
     /* Footer */

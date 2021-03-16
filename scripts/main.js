@@ -1,6 +1,7 @@
 const userText = document.querySelector('.user-text');
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
+const firstNameInput = document.querySelector('#firstname');
 
 const urlParams = new URLSearchParams(location.search);
 for (const [key, value] of urlParams) {
@@ -11,6 +12,7 @@ for (const [key, value] of urlParams) {
     if (user !== undefined) {
         let firstName = user.firstName;
         userText.textContent += " " + firstName;
+        firstNameInput.value = firstName;
     }
 };
 

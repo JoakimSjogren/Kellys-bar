@@ -50,6 +50,6 @@ slider.addEventListener('transitionend', () => {
 const SlideInterval = setInterval(function(){ 
     if (counter >= sliderImages.length -1)
         return;
-    // counter++;
-    // slide();
+    counter++;
+    slide();
 }, 5000);
