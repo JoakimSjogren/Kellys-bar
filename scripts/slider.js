@@ -52,4 +52,4 @@ const SlideInterval = setInterval(function(){
         return;
     counter++;
     slide();
-}, 5000);
+}, 10000);
