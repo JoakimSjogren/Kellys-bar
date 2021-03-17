@@ -199,7 +199,7 @@
     /* Footer */
 
     footer {
-        height: 60vh;
+        height: 90vh;
         flex-direction: column;
         align-items: center;
     }
@@ -213,10 +213,10 @@
     }
 
     footer div span {
-        font-size: .8em; 
+        font-size: 1.2em; 
     }
 
     footer div ul li { 
-        font-size: .75em;
+        font-size: 1em;
     }
 }
