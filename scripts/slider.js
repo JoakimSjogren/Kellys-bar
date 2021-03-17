@@ -9,10 +9,10 @@ let size = sliderImages[0].clientWidth;
 
 window.addEventListener('resize', () => {
     size = sliderImages[0].clientWidth;
-    slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    slider.style.transform = 'translateX(' + -(size * counter) + 'px)';
 });
 
-slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+slider.style.transform = 'translateX(' + -(size * counter) + 'px)';
 
 nxtBtn.addEventListener('click', () => {
     if (counter >= sliderImages.length -1)
@@ -30,19 +30,19 @@ prevBtn.addEventListener('click', () => {
 
 function slide() {
     slider.style.transition = "transform 0.6s ease-in-out";
-    slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    slider.style.transform = 'translateX(' + -(size * counter) + 'px)';
 }
 
 slider.addEventListener('transitionend', () => {
     if (counter === 0) {
         slider.style.transition = "none";
         counter = sliderImages.length -2;
-        slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+        slider.style.transform = 'translateX(' + -(size * counter) + 'px)';
     }
     else if (counter === sliderImages.length-1) {
         slider.style.transition = "none";
         counter = 1;
-        slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+        slider.style.transform = 'translateX(' + -(size * counter) + 'px)';
     }
 });
 
